@@ -7,11 +7,11 @@ module.exports = {
   scheme: 'endgme',
   userInterfaceStyle: 'automatic',
   newArchEnabled: true,
-  backgroundColor: '#101820',
+  backgroundColor: '#282b30',
   splash: {
     image: './assets/images/icons/splash-icon.png',
     resizeMode: 'cover',
-    backgroundColor: '#101820',
+    backgroundColor: '#282b30',
   },
   ios: {
     supportsTablet: false,
@@ -19,7 +19,7 @@ module.exports = {
   android: {
     adaptiveIcon: {
       foregroundImage: './assets/images/icons/icon.png',
-      backgroundColor: '#101820',
+      backgroundColor: '#282b30',
     },
   },
   web: {
@@ -27,7 +27,7 @@ module.exports = {
     output: 'static',
     favicon: './assets/images/icons/icon.png',
   },
-  plugins: ['expo-router', 'expo-splash-screen'],
+  plugins: ['expo-router', 'expo-splash-screen', 'expo-asset'],
   experiments: {
     typedRoutes: true,
   },

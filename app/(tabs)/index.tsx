@@ -11,7 +11,7 @@ export default function HomeScreen() {
       style={[
         styles.container,
         {
-          backgroundColor: theme['background-basic-color-2'],
+          backgroundColor: theme['discord-color-4'],
           paddingTop: top,
         },
       ]}

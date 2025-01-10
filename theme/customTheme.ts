@@ -48,4 +48,9 @@ export const customTheme = {
   'color-danger-700': '#B52715',
   'color-danger-800': '#92120D',
   'background-basic-color-5': '#101820',
+  'discord-color-1': '#7289da',
+  'discord-color-2': '#424549',
+  'discord-color-3': '#36393e',
+  'discord-color-4': '#282b30',
+  'discord-color-5': '#1e2124',
 };

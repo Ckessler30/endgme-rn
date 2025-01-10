@@ -7,8 +7,6 @@ export default function Profile() {
   const { user } = useAuth();
   console.log(user);
   return (
-    <View
-      style={{ backgroundColor: theme['background-basic-color-2'], flex: 1 }}
-    ></View>
+    <View style={{ backgroundColor: theme['discord-color-4'], flex: 1 }}></View>
   );
 }

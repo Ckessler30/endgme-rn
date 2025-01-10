@@ -42,7 +42,7 @@ function TabBar({ state, descriptors, navigation }: BottomTabBarProps) {
       style={[
         styles.container,
         {
-          backgroundColor: theme['background-basic-color-5'],
+          backgroundColor: theme['discord-color-5'],
         },
       ]}
     >

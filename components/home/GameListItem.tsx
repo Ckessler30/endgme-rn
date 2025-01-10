@@ -9,6 +9,7 @@ interface GameListItemProps {
 
 function GameListItem({ game }: GameListItemProps) {
   const theme = useTheme();
+
   return (
     <TouchableOpacity style={styles.container}>
       <ImageBackground
